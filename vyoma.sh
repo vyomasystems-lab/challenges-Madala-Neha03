@@ -1,5 +1,5 @@
 #!/bin/bash
-
+​
 export PS1='\[\033[01;32m\]vyoma\[\033[00m\] \[\033[01;34m\]\w\[\033[00m\] (uptickpro) $ '
 brew install icarus-verilog
 PYTHON_CONFIGURE_OPTS="--enable-shared" pyenv install 3.8.13
