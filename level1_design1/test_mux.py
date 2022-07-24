@@ -4,27 +4,35 @@ import cocotb
 from cocotb.triggers import Timer
 
 @cocotb.test()
-async def test_mux(dut):
+async def test_mux_inp12(dut):
     """Test for mux12"""
 
-    x=12
-    A = 1
+    A = 3
+    B = 12
    
     dut.inp12.value = A
-    dut.sel.value = x
+    dut.sel.value = B
     
     await Timer(2, units='ns')
-    assert dut.out.value == L, f"Mux result is incorrect: {dut.X.value}!=1"
+    assert dut.out.value == A, "result is incorrect: {OUT} != {A}, expected value={EXP}".format(
+        OUT=int(dut.out.value), A=int(dut.inp12.value), EXP=A)
 
 
-    @cocotb.test()
-async def test_ran_mux(dut):
+@cocotb.test()
+async def test_mux_inp30(dut):
     """Test for mux30"""
 
-     y=30
-     B = 2
-
-     dut.inp30.value = B
-     dut.sel.value = y
+    A = 2
+    B = 30
+   
+    dut.inp30.value = A
+    dut.sel.value = B
+    
     await Timer(2, units='ns')
-    assert dut.out.value == e, f"Mux result is incorrect: {dut.X.value}!=2"
+    assert dut.out.value == A, "result is incorrect: {OUT} != {A}, expected value={EXP}".format(
+        OUT=int(dut.out.value), A=int(dut.inp30.value), EXP=A)
+    
+
+
+
+
