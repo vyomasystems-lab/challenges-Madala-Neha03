@@ -95,4 +95,9 @@ Updating the design and re-running the test makes the test pass.
 
 The updated design is checked in as level1_design1_debugged.v
 
+## Verification Strategy
 
+Writing different test cases for the design i.e. for the 31 inputs of the mux and comparing the output driven and the expected output to detect the bug.
+
+## Is the verification complete ?
+ Yes
