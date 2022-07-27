@@ -39,6 +39,7 @@ assert dut.out.value == A, "result is incorrect: {OUT} != {A}, expected value={E
 - Observed Output in the DUT dut.out.vlaue=0
 
 
+
 - Test Inputs: inp30=2 sel=30
 - Expected Output: out=2
 - Observed Output in the DUT dut.out.vlaue=0
@@ -90,7 +91,7 @@ The logic unit for inp30 5'b11110 is not present. so, the default case is applie
 ## Design Fix
 Updating the design and re-running the test makes the test pass.
 
-![](https://i.imgur.com/5XbL1ZH.png)
+![level1design1debugged](https://user-images.githubusercontent.com/99884583/181204811-16d723c8-52d1-41e8-b932-1df9397656bf.png)
 
 The updated design is checked in as level1_design1_debugged.v
 
