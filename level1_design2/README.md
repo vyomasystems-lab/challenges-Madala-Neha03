@@ -108,9 +108,9 @@ In the 1011 moore sequence detector with overlap
 ## Design Fix
 Updating the design and re-running the test makes the test pass.
 
-![level1design1debugged](https://user-images.githubusercontent.com/99884583/181204811-16d723c8-52d1-41e8-b932-1df9397656bf.png)
+![design2 debug](https://user-images.githubusercontent.com/99884583/181904485-365bd3f3-f62d-49b2-929d-b9f3f2e78361.png)
 
-The updated design is checked in as level1_design1_debugged.v
+The updated design is checked in as level1_design2_debugged.v
 
 ## Verification Strategy
 
