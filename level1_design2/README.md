@@ -1,7 +1,6 @@
-# 31:1 MUX Design Verification
+# 1011 moore sequence detector with overlap
 
-
-![new](https://user-images.githubusercontent.com/99884583/181202916-699119c3-4dbf-45cc-80cb-b044b2f8663d.png)
+![level2bug](https://user-images.githubusercontent.com/99884583/181904439-dd833641-a21c-46ff-a41c-40042809ba94.png)
 
 ## Verification Environment
 
@@ -101,7 +100,7 @@ Based on the above test input and analysing the design, we see the following
 ```
 
 The assign statement should be synchronized with the clock, so that it can detect the sequence and result is obtained at a synchronized time otherwise the output is obtained before the prescribed time.
-In the overlapped moore sequence detector 
+In the 1011 moore sequence detector with overlap
 -> if the state is SEQ_1 and input_bit is 1 the next state should be SEQ_1.
 -> if the state is SEQ_101 and input_bit is 0 the next state should be SEQ_10.
 -> if the state is SEQ_1011 and input_bit is 1 the next state should be SEQ_1, input_bit is 0 the next state should be SEQ_10.
