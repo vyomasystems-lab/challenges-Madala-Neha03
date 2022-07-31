@@ -20,7 +20,7 @@ dut.inp30.value = 2
 dut.sel.value = 30
 ```
 
-The assert statement is used for comparing the MUX outut to the expected value.
+The assert statement is used for comparing the MUX output to the expected value.
 
 The following error is seen:
 
