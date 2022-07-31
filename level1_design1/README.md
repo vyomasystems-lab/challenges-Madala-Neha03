@@ -20,7 +20,7 @@ dut.inp30.value = 2
 dut.sel.value = 30
 ```
 
-The assert statement is used for comparing the adder's outut to the expected value.
+The assert statement is used for comparing the MUX outut to the expected value.
 
 The following error is seen:
 
@@ -100,4 +100,4 @@ The updated design is checked in as level1_design1_debugged.v
 Writing different test cases for the design i.e. for the 31 inputs of the mux and comparing the output driven and the expected output to detect the bug.
 
 ## Is the verification complete ?
- Yes
+ YES
