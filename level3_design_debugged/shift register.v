@@ -11,10 +11,8 @@ module shift_register(op,clk,rst, load,sel,ip);
   
   always @(posedge clk or rst)
    begin
-     if (rst)
-       
+     if (rst)  
        op = 0;
-      
      else    
        case(load)
          1'b1: 
