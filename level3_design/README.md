@@ -1,6 +1,6 @@
 # Shift Register with different modes of operation
 
-![level2bug](https://user-images.githubusercontent.com/99884583/181904439-dd833641-a21c-46ff-a41c-40042809ba94.png)
+![level3bug](https://user-images.githubusercontent.com/99884583/182012581-f5e6d838-63be-41b2-b29d-6518c7693bd2.png)
 
 ## Verification Environment
 
