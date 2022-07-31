@@ -99,7 +99,7 @@ The left shift operator is used for the right shift.
 ## Design Fix
 Updating the design and re-running the test makes the test pass.
 
-![design2 debug](https://user-images.githubusercontent.com/99884583/181904485-365bd3f3-f62d-49b2-929d-b9f3f2e78361.png)
+![level3debugged](https://user-images.githubusercontent.com/99884583/182012627-71e4b4b7-4daa-45a4-9ee0-61e37b27a52a.png)
 
 The updated design is checked in as level3_debugged.v
 
