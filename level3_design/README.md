@@ -31,12 +31,12 @@ The values are assigned to the input port using
     D = 5
 
     dut.ip.value = C
-    dut.load.value = 1                                 #load
-    dut.sel.value = 1                                  #right shift
+    dut.load.value = 1                          #load
+    dut.sel.value = 1                           #right shift
 
     dut.ip.value = C
-    dut.load.value = 0                                  #load
-    dut.sel.value = 1                                   #right shift
+    dut.load.value = 0                          #load
+    dut.sel.value = 1                           #right shift
 ```
 
 The assert statement is used for comparing the shift register output to the expected value.
@@ -54,13 +54,15 @@ assert dut.op.value == D,f"Output is incorrect {dut.op.value}!=0101"
 ```
 
 ## Test Scenario **(Important)**
-- Test Inputs: ip = 1011, load = 1, sel = 0
+- Test Inputs: 
+-              ip = 1011, load = 1, sel = 0
 -              ip = 1011, load = 0, sel = 0
 - Expected Output: out = 0110
 - Observed Output in the DUT dut.op.value=0101
 
 
-- Test Inputs: ip = 1010, load = 1, sel = 1
+- Test Inputs: 
+-              ip = 1010, load = 1, sel = 1
 -              ip = 1010, load = 0, sel = 1
 - Expected Output: out = 0101
 - Observed Output in the DUT dut.op.value=100
