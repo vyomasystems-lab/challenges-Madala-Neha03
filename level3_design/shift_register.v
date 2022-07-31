@@ -1,11 +1,15 @@
-module shift_reg(op,clk,rst, load,sel,ip);
+// See LICENSE.vyoma for more details
+// Verilog module for Shift register
+
+
+module shift_register(op,clk,rst, load,sel,ip);
   output reg [3:0] op;
   input load;
   input [1:0] sel;
   input [3:0] ip;
   input clk, rst;
   
-  always @(posedge clk or posedge rst)
+  always @(posedge clk or rst)
    begin
      if (rst)
        
