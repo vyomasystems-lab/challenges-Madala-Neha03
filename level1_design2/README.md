@@ -24,7 +24,7 @@ dut.inp_bit.value = 1
 dut.inp_bit.value = 1
 ```
 
-The assert statement is used for comparing the sequence detector outut to the expected value.
+The assert statement is used for comparing the sequence detector output to the expected value.
 
 The following error is seen:
 
